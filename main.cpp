@@ -53,17 +53,24 @@ void read_switches(void) {
 
     if(EN1_status_old == 0 && EN1_status == 1)
         EN1_OUT = !EN1_OUT;
+    
     if(EN2_status_old == 0 && EN2_status == 1)
         EN2_OUT = !EN2_OUT;
-    if(CENTER_status_old == 0 && CENTER_status == 1)
-        CENTER_OUT = !CENTER_OUT;
 
-    VOLUME_OUT = 500 + (int)(VOLUME_voltage * 2000.0);
+    if(CENTER_status_old == 0 && CENTER_status == 1) {
+        CENTER_OUT = !CENTER_OUT;
+        VOLUME_OUT = 1500;
+    }
+    else {
+        VOLUME_OUT = 500 + (int)(VOLUME_voltage * 2000.0);
+    }
 }
 
 void set_pwm(void) {
-    PWM1.pulsewidth_us(VOLUME_OUT);
-    PWM2.pulsewidth_us(VOLUME_OUT);
+    if(EN1_OUT)
+        PWM1.pulsewidth_us(VOLUME_OUT);
+    if(EN2_OUT)
+        PWM2.pulsewidth_us(VOLUME_OUT);
 }
 
 void set_led(void) {
