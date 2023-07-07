@@ -56,8 +56,11 @@
         }
       ],
       "drc_exclusions": [
+        "silk_edge_clearance|125292798|127000000|8273123e-28aa-41fa-ac0f-02f35d4e69b9|2e4d5f3e-933e-409d-a165-5969400a56a6",
+        "silk_edge_clearance|129397267|127000000|8273123e-28aa-41fa-ac0f-02f35d4e69b9|78ab570a-1ca5-451a-9448-740457697735",
         "silk_overlap|133985000|79970000|d47e21e9-85c8-4a4e-a5c6-cac9f697dc66|5384a0bf-a116-464b-91b7-4224c9217c56",
         "silk_overlap|133985000|79970000|d47e21e9-85c8-4a4e-a5c6-cac9f697dc66|fb5dc460-4e21-4e8e-aabc-95ddc7a2063f",
+        "silk_overlap|133985000|90210000|d47e21e9-85c8-4a4e-a5c6-cac9f697dc66|1232985d-802e-4264-94d8-f5065a07f77c",
         "unconnected_items|123190000|108675000|d0609247-b6b7-4465-9178-a00fd07e504a|198b0dd0-a27e-445c-81cf-bc2ade223d7f"
       ],
       "meta": {
@@ -187,6 +190,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         },
         {
           "diameter": 5.0,

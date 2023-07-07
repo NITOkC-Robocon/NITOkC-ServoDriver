@@ -1,7 +1,7 @@
 Designator,Footprint,Quantity,Value,LCSC Part #
 "C1, C4",CP_Radial_D8.0mm_P3.50mm,2,100u,
 C2,C_Disc_D3.4mm_W2.1mm_P2.50mm,1,0.33u,
-"C3, C5, C6, C7",C_Disc_D4.3mm_W1.9mm_P5.00mm,4,0.1u,
+C3,C_Disc_D4.3mm_W1.9mm_P5.00mm,1,0.1u,
 "D1, D2",D_DO-15_P10.16mm_Horizontal,2,PS2010R,
 D3,LED_D3.0mm,1,SLR-332VC3F,
 D4,LED_D3.0mm,1,SLR-332MC3F,

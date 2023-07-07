@@ -1068,17 +1068,11 @@
   (junction (at 97.79 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 13db94e8-456d-4567-ab30-9b12600857f2)
   )
-  (junction (at 171.45 127) (diameter 0) (color 0 0 0 0)
-    (uuid 194ddc6b-96e6-42dd-ac9b-8ece2b02f277)
-  )
   (junction (at 114.3 99.06) (diameter 0) (color 0 0 0 0)
     (uuid 5bbe3ed3-3c99-4e36-8232-1fb5cf3cd122)
   )
   (junction (at 120.65 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 772b3467-5e08-4081-9419-d42e47db06d5)
-  )
-  (junction (at 213.36 127) (diameter 0) (color 0 0 0 0)
-    (uuid 7bd1dffe-b5c9-41e5-93e8-d0e45f939ecc)
   )
   (junction (at 97.79 44.45) (diameter 0) (color 0 0 0 0)
     (uuid 7e97c1ce-01ee-4c24-b411-02352e1fdbf1)
@@ -1097,9 +1091,6 @@
   )
   (junction (at 80.01 55.88) (diameter 0) (color 0 0 0 0)
     (uuid c3b0b63f-16b8-4687-a0af-7f3bf0cdcc62)
-  )
-  (junction (at 125.73 127) (diameter 0) (color 0 0 0 0)
-    (uuid dcbad701-4724-4c8f-a7b9-48b927344327)
   )
   (junction (at 80.01 50.8) (diameter 0) (color 0 0 0 0)
     (uuid e66ec234-1489-4569-99fa-6a71ba8a7e74)
@@ -1157,14 +1148,6 @@
     (stroke (width 0) (type default))
     (uuid 0ce0fc3d-b52b-4a0b-9202-29c440c73708)
   )
-  (wire (pts (xy 125.73 133.35) (xy 125.73 134.62))
-    (stroke (width 0) (type default))
-    (uuid 0ee188fa-6176-40c0-9beb-dfaecc0e8d5e)
-  )
-  (wire (pts (xy 171.45 127) (xy 171.45 128.27))
-    (stroke (width 0) (type default))
-    (uuid 114755d2-f0e5-47fc-852d-2247457d2c8a)
-  )
   (wire (pts (xy 156.21 45.72) (xy 156.21 49.53))
     (stroke (width 0) (type default))
     (uuid 144d2208-34d9-4656-9847-3a06e085e838)
@@ -1209,17 +1192,9 @@
     (stroke (width 0) (type default))
     (uuid 21d7f6e9-d97c-45f0-a4c3-56d82935d334)
   )
-  (wire (pts (xy 123.19 127) (xy 125.73 127))
-    (stroke (width 0) (type default))
-    (uuid 22a19327-58b9-4b25-a07e-9b0475cdfbbd)
-  )
   (wire (pts (xy 198.12 127) (xy 200.66 127))
     (stroke (width 0) (type default))
     (uuid 27b449c3-12aa-440d-8c9b-1e0eb3db922c)
-  )
-  (wire (pts (xy 125.73 127) (xy 125.73 128.27))
-    (stroke (width 0) (type default))
-    (uuid 28f716b9-4e3e-4f1e-84f6-e98c001dcb23)
   )
   (wire (pts (xy 190.5 45.72) (xy 190.5 53.34))
     (stroke (width 0) (type default))
@@ -1325,10 +1300,6 @@
     (stroke (width 0) (type default))
     (uuid 74ecfd2b-26fe-43be-9ceb-1817181d6daa)
   )
-  (wire (pts (xy 213.36 133.35) (xy 213.36 134.62))
-    (stroke (width 0) (type default))
-    (uuid 7603afc2-3be4-47db-b419-347cd5854046)
-  )
   (wire (pts (xy 54.61 119.38) (xy 63.5 119.38))
     (stroke (width 0) (type default))
     (uuid 78690944-3946-48b4-9b1c-70fa4b1e76ab)
@@ -1337,7 +1308,7 @@
     (stroke (width 0) (type default))
     (uuid 79894a33-3f62-4058-9fd9-3cb012e562ea)
   )
-  (wire (pts (xy 213.36 127) (xy 219.71 127))
+  (wire (pts (xy 210.82 127) (xy 219.71 127))
     (stroke (width 0) (type default))
     (uuid 7dbc8cb3-bfc0-4044-8960-751e45d407aa)
   )
@@ -1401,10 +1372,6 @@
     (stroke (width 0) (type default))
     (uuid a550b0f2-d25d-4b59-a4e1-e242d08df76c)
   )
-  (wire (pts (xy 171.45 133.35) (xy 171.45 134.62))
-    (stroke (width 0) (type default))
-    (uuid a5fbcbf0-59ca-4105-8cc8-d361a221854e)
-  )
   (wire (pts (xy 120.65 58.42) (xy 120.65 59.69))
     (stroke (width 0) (type default))
     (uuid a6eb5341-d0cc-471e-9cb1-0deb3c9e023d)
@@ -1425,7 +1392,7 @@
     (stroke (width 0) (type default))
     (uuid ad5d350f-3512-4ebd-8b35-efef9f49beb7)
   )
-  (wire (pts (xy 168.91 127) (xy 171.45 127))
+  (wire (pts (xy 168.91 127) (xy 177.8 127))
     (stroke (width 0) (type default))
     (uuid add01135-3ef3-4d25-a6f1-dfd5e57a29ae)
   )
@@ -1452,10 +1419,6 @@
   (wire (pts (xy 111.76 99.06) (xy 114.3 99.06))
     (stroke (width 0) (type default))
     (uuid b93344b4-1cf4-43c2-b645-7316b556b805)
-  )
-  (wire (pts (xy 213.36 127) (xy 213.36 128.27))
-    (stroke (width 0) (type default))
-    (uuid ba48e17d-96a6-4cf6-bc23-f31fc7ad45bc)
   )
   (wire (pts (xy 97.79 52.07) (xy 97.79 53.34))
     (stroke (width 0) (type default))
@@ -1489,10 +1452,6 @@
     (stroke (width 0) (type default))
     (uuid d28ffa27-b8c8-4223-b759-dbd9c3af388e)
   )
-  (wire (pts (xy 210.82 127) (xy 213.36 127))
-    (stroke (width 0) (type default))
-    (uuid d4f57efa-b2e6-4533-9aef-20d424ebb5d4)
-  )
   (wire (pts (xy 156.21 97.79) (xy 156.21 100.33))
     (stroke (width 0) (type default))
     (uuid d81a10ef-28c4-4bdc-b4e2-2ca3cde706f6)
@@ -1521,7 +1480,7 @@
     (stroke (width 0) (type default))
     (uuid e963231a-37a8-4f43-a07d-b24eda0153d2)
   )
-  (wire (pts (xy 125.73 127) (xy 135.89 127))
+  (wire (pts (xy 123.19 127) (xy 135.89 127))
     (stroke (width 0) (type default))
     (uuid eb60be82-449b-49e9-a83f-9cbbb2e0c99f)
   )
@@ -1536,10 +1495,6 @@
   (wire (pts (xy 119.38 52.07) (xy 120.65 52.07))
     (stroke (width 0) (type default))
     (uuid f95d0ea9-dee8-4d85-b265-46980a332d16)
-  )
-  (wire (pts (xy 171.45 127) (xy 177.8 127))
-    (stroke (width 0) (type default))
-    (uuid f9a3adbc-80d4-4e9d-b9ea-070545b3e76e)
   )
   (wire (pts (xy 96.52 132.08) (xy 88.9 132.08))
     (stroke (width 0) (type default))
@@ -1669,7 +1624,7 @@
     (pin "1" (uuid 8ebc451f-a251-4005-8fd7-9d222bb1c683))
     (pin "2" (uuid a81f3d89-2246-4e24-b0bc-b11906b086ed))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "SW5") (unit 1)
         )
@@ -1694,7 +1649,7 @@
     )
     (pin "1" (uuid 162ee2fd-21bd-41a8-8c79-f4d05c9ac0af))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR018") (unit 1)
         )
@@ -1719,7 +1674,7 @@
     )
     (pin "1" (uuid 78a70780-09d8-42f1-b7ed-a5b2737b334d))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR017") (unit 1)
         )
@@ -1745,35 +1700,9 @@
     (pin "1" (uuid 6f8dddd0-40f5-496e-a0fb-d83513451b22))
     (pin "2" (uuid d4f1cbfc-199e-4a10-9ba2-3d3b256eb02e))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 125.73 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1543b6f6-36e8-4b67-9fdc-260f8e5d2187)
-    (property "Reference" "C5" (at 128.0541 130.1726 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.1u" (at 128.0541 132.0936 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (at 125.73 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 125.73 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 76249cf3-3fcc-4383-b1bf-f0ebbf2eb7d4))
-    (pin "2" (uuid c6d96377-fefb-413b-8ba5-d2652df37225))
-    (instances
-      (project "Servo_Controller"
-        (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
-          (reference "C5") (unit 1)
         )
       )
     )
@@ -1796,7 +1725,7 @@
     )
     (pin "1" (uuid 4a2f6ec8-1c05-42de-98c8-6bfaeaca368b))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR015") (unit 1)
         )
@@ -1822,7 +1751,7 @@
     (pin "1" (uuid 49001d63-923f-4f13-9b6f-c0dcddbc1cc9))
     (pin "2" (uuid 7e2ad7c2-0ed4-4af8-a3bc-ac44a29d83a4))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "R3") (unit 1)
         )
@@ -1848,7 +1777,7 @@
     (pin "1" (uuid 507017ff-0580-46db-98be-df5ecdd75f41))
     (pin "2" (uuid a5c7db67-0c5d-474c-b00f-7909d0321319))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "C3") (unit 1)
         )
@@ -1874,7 +1803,7 @@
     (pin "1" (uuid dc1cf67a-bea5-4344-97af-da21c416be00))
     (pin "2" (uuid 5169fe5b-8aba-4675-aea6-579530fb5028))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "D6") (unit 1)
         )
@@ -1900,7 +1829,7 @@
     (pin "1" (uuid 5c8beef6-cd72-48c8-95af-e8a09c4c952f))
     (pin "2" (uuid d8d232a4-1cce-491f-9b1b-f629c920ff88))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "R2") (unit 1)
         )
@@ -1926,35 +1855,9 @@
     (pin "1" (uuid 1a864a53-e009-4709-9909-e6c7eab76360))
     (pin "2" (uuid 7d2ee5ad-2322-4cdb-9814-d4c91fb3c182))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "SW6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 171.45 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 28d5f90e-5565-449b-8b95-98262e70fb14)
-    (property "Reference" "C6" (at 173.7741 130.1726 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.1u" (at 173.7741 132.0936 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (at 171.45 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 171.45 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid effd5dd2-51dd-4bca-a82e-3d10aee0e6bb))
-    (pin "2" (uuid fb2307a1-0047-4e04-9f48-4a7ad1936d6e))
-    (instances
-      (project "Servo_Controller"
-        (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
-          (reference "C6") (unit 1)
         )
       )
     )
@@ -1978,7 +1881,7 @@
     (pin "1" (uuid 3aa8a9d6-8153-4e39-827e-78eab6efa4bb))
     (pin "2" (uuid 3af42975-b952-4058-b7d3-81eb4e1c3813))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "D3") (unit 1)
         )
@@ -2010,7 +1913,7 @@
     (pin "1" (uuid 550121dc-08b8-4f06-826e-fa4fb701ab47))
     (pin "2" (uuid ae5e7bc7-f140-4f1e-a6dc-aaf5010f3bc9))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "D1") (unit 1)
         )
@@ -2037,7 +1940,7 @@
     (pin "2" (uuid b735ad29-9693-4f0e-b5ab-2ff0faac429b))
     (pin "3" (uuid a5afcd09-9ca2-4b69-8f91-2261f4fede53))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "U1") (unit 1)
         )
@@ -2062,7 +1965,7 @@
     )
     (pin "1" (uuid 89c7b86c-5fb8-4cbf-89cf-d9aa2b03edb5))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR010") (unit 1)
         )
@@ -2087,7 +1990,7 @@
     )
     (pin "1" (uuid 9b06eafb-dec6-44ea-a8b0-a06881b517e1))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR013") (unit 1)
         )
@@ -2113,7 +2016,7 @@
     (pin "1" (uuid 894c5461-8fcc-4e8b-ab61-4acf533e570f))
     (pin "2" (uuid 481249d3-dab0-4b96-8e0a-9bad1683c2b5))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "C1") (unit 1)
         )
@@ -2138,7 +2041,7 @@
     )
     (pin "1" (uuid 33e92fd3-9567-4e84-887e-bcdfe6e156e0))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR011") (unit 1)
         )
@@ -2163,7 +2066,7 @@
     )
     (pin "1" (uuid 2d59fe3e-b867-45ad-8120-4874beae2cb6))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR023") (unit 1)
         )
@@ -2188,7 +2091,7 @@
     )
     (pin "1" (uuid 4dbe8529-979a-441f-8a2c-58766ed095d2))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR08") (unit 1)
         )
@@ -2214,7 +2117,7 @@
     (pin "1" (uuid e9485e36-dd51-42bf-9a72-2db8c76d8e71))
     (pin "2" (uuid 2615dd8d-ff48-4732-98ce-151c55dbd02a))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "D4") (unit 1)
         )
@@ -2239,7 +2142,7 @@
     )
     (pin "1" (uuid 86bf8dfa-98c5-4acd-8c9e-43e5c9077b2e))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR03") (unit 1)
         )
@@ -2265,7 +2168,7 @@
     (pin "1" (uuid 0163b51b-9d72-4906-b7dc-60e36659c2ab))
     (pin "2" (uuid 5f107d9f-a789-4150-90c8-de12c214bf98))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "C2") (unit 1)
         )
@@ -2290,7 +2193,7 @@
     )
     (pin "1" (uuid de06780f-542d-405a-8e33-91537f6e1b67))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR09") (unit 1)
         )
@@ -2322,7 +2225,7 @@
     (pin "1" (uuid 7e877776-26af-4b27-80d3-6c8a1dfd950a))
     (pin "2" (uuid bb4520e4-246e-49ab-afcf-d911bc50499c))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "D2") (unit 1)
         )
@@ -2349,7 +2252,7 @@
     (pin "2" (uuid b6b2aaa5-fb23-43c0-9d04-8a01a5db5f3f))
     (pin "3" (uuid 3556df3b-1980-4ab6-beca-1307ed3794c9))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "J3") (unit 1)
         )
@@ -2377,7 +2280,7 @@
     (pin "3" (uuid 5fc736f3-56fe-4ba7-969b-a54e6d799c2b))
     (pin "MP" (uuid da350558-5dfb-4c59-801e-9db5e2a0faae))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "RV1") (unit 1)
         )
@@ -2402,7 +2305,7 @@
     )
     (pin "1" (uuid 96268a9e-903c-4deb-9f6b-4a0461b7d6e7))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR012") (unit 1)
         )
@@ -2427,34 +2330,9 @@
     )
     (pin "1" (uuid 0469d9e4-9506-409c-95a7-185c964f5cef))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR05") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 125.73 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7fd40f63-3bd8-4a36-9d0c-70353841343b)
-    (property "Reference" "#PWR022" (at 125.73 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 125.73 138.7555 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 125.73 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 125.73 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e3049f25-e6c0-4721-8456-6546d9592a42))
-    (instances
-      (project "Servo_Controller"
-        (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
-          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2478,7 +2356,7 @@
     (pin "1" (uuid 194d0fc4-37a6-4abf-aff3-200ce6bafd75))
     (pin "2" (uuid b2a992a9-77eb-483c-bbb0-8fab03f41ce2))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "R1") (unit 1)
         )
@@ -2504,7 +2382,7 @@
     (pin "1" (uuid 47a8ea46-2381-4ddc-b677-4517b97ca209))
     (pin "2" (uuid efb37083-7bcd-4a69-987e-1c1fa0b15fb8))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "JP1") (unit 1)
         )
@@ -2530,7 +2408,7 @@
     (pin "1" (uuid a6f287fb-a709-4892-942c-3459cf2fa523))
     (pin "2" (uuid 38a0b759-843b-4456-8751-387c21a20b7f))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "R5") (unit 1)
         )
@@ -2555,7 +2433,7 @@
     )
     (pin "1" (uuid fdaa770f-4876-4002-b723-c7b78652c8b7))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR019") (unit 1)
         )
@@ -2580,7 +2458,7 @@
     )
     (pin "1" (uuid a4b148a1-9454-4cbc-86ed-ffdd3d9b8c0f))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR021") (unit 1)
         )
@@ -2605,7 +2483,7 @@
     )
     (pin "1" (uuid 5d1cf93e-1310-417b-bdf5-58ed30b269b1))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR07") (unit 1)
         )
@@ -2631,7 +2509,7 @@
     (pin "1" (uuid 8e6166d1-59ed-4202-9c38-2ade33d2ab9e))
     (pin "2" (uuid 5d027b24-d98b-4c7a-b83d-5c5be30bb446))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "SW4") (unit 1)
         )
@@ -2657,7 +2535,7 @@
     (pin "1" (uuid 729d9cb3-cd0d-4805-a99f-aa9d32e7017e))
     (pin "2" (uuid 3350e0fc-b6d7-4246-8fa6-9ab6d5ab8d56))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "R4") (unit 1)
         )
@@ -2684,7 +2562,7 @@
     (pin "2" (uuid 4b9fc811-7402-4070-b116-184a0869cbb3))
     (pin "3" (uuid e8821906-a4c3-46a4-b6f8-9090fafdd50a))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "SW1") (unit 1)
         )
@@ -2709,7 +2587,7 @@
     )
     (pin "1" (uuid 4d789848-019a-49dd-993c-b341f0f9fc3f))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR028") (unit 1)
         )
@@ -2734,34 +2612,9 @@
     )
     (pin "1" (uuid 5d16ba6c-b8a6-4812-90c2-0ba7bed177b7))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR020") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 213.36 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b5ff6973-bcea-4886-bcb5-cc9cbca18dbc)
-    (property "Reference" "#PWR026" (at 213.36 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 213.36 138.7555 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 213.36 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 213.36 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3ee63ab4-322b-4c67-b5ef-271e3dd4daf1))
-    (instances
-      (project "Servo_Controller"
-        (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
-          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2813,7 +2666,7 @@
     (pin "4.8" (uuid 467c5d4d-8bcf-4ee3-b88e-b0f1a48cff06))
     (pin "4.9" (uuid 356e750e-6225-4346-b2a0-f29e86019438))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "U2") (unit 1)
         )
@@ -2840,7 +2693,7 @@
     (pin "2" (uuid 97c21747-f75c-47cd-a045-a68b1139028e))
     (pin "3" (uuid 88d834c9-6bd5-477f-b64d-deb08ba17b62))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "J2") (unit 1)
         )
@@ -2865,7 +2718,7 @@
     )
     (pin "1" (uuid 2accd9c0-c41e-4c91-9bbb-42615b2147ab))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR016") (unit 1)
         )
@@ -2892,7 +2745,7 @@
     (pin "2" (uuid 49e72eda-31f8-41be-bf75-3076eb18e158))
     (pin "3" (uuid 3a752651-6cf0-41d1-a135-2a38f34bcfd6))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "J4") (unit 1)
         )
@@ -2917,7 +2770,7 @@
     )
     (pin "1" (uuid 650fb3d0-585b-4925-bd41-52057b24953f))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR06") (unit 1)
         )
@@ -2943,7 +2796,7 @@
     (pin "1" (uuid bb6e051e-a154-4525-ad62-c1388c1980a5))
     (pin "2" (uuid 5aecd0c0-f91c-4130-b17b-4a109df852eb))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "D5") (unit 1)
         )
@@ -2968,7 +2821,7 @@
     )
     (pin "1" (uuid 08216754-3b52-48a8-8908-bd7e3a75d94a))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR01") (unit 1)
         )
@@ -2994,7 +2847,7 @@
     (pin "1" (uuid dd99603e-4873-42ff-ae8d-1de6ca3f086a))
     (pin "2" (uuid 39f9c247-de7b-4003-bf63-38b2feadfc5a))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "SW3") (unit 1)
         )
@@ -3020,34 +2873,9 @@
     (pin "1" (uuid 9b07d6af-5e3e-4a08-ad29-178762e98c92))
     (pin "2" (uuid 30069994-7eca-475c-a466-afad10cd911d))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "C4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 171.45 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid da054592-109b-4aa9-8bd0-8c598ff7f178)
-    (property "Reference" "#PWR024" (at 171.45 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 171.45 138.7555 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 171.45 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 171.45 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bfde558f-9a27-4dc4-8132-a0fdf63268f2))
-    (instances
-      (project "Servo_Controller"
-        (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
-          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3072,35 +2900,9 @@
     (pin "2" (uuid 075ac1ea-e58b-4175-9495-475fe341c021))
     (pin "3" (uuid 4af20389-694c-4547-b6f6-c53bee0a1d20))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "SW2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 213.36 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ecd9d08a-b4d0-4218-9527-7e0027aec707)
-    (property "Reference" "C7" (at 215.6841 130.1726 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.1u" (at 215.6841 132.0936 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (at 213.36 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 213.36 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6cd9983d-b0dc-413a-a2c6-f42d95838e4e))
-    (pin "2" (uuid 0d8036c4-0100-4d6f-a58a-29b1165c8b2d))
-    (instances
-      (project "Servo_Controller"
-        (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
-          (reference "C7") (unit 1)
         )
       )
     )
@@ -3123,7 +2925,7 @@
     )
     (pin "1" (uuid da94376d-8475-404f-a2f7-06cb2709d0fc))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR014") (unit 1)
         )
@@ -3148,7 +2950,7 @@
     )
     (pin "1" (uuid 3483401e-35b6-4912-b781-e10e24d43f65))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR027") (unit 1)
         )
@@ -3173,7 +2975,7 @@
     )
     (pin "1" (uuid 11475732-415b-4b87-b770-93cc5532f235))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR025") (unit 1)
         )
@@ -3198,7 +3000,7 @@
     )
     (pin "1" (uuid 213fca7b-d998-4bb4-93df-04f04945e366))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR04") (unit 1)
         )
@@ -3223,7 +3025,7 @@
     )
     (pin "1" (uuid 4f4b199a-5391-4050-9ab8-e4fdf0170d26))
     (instances
-      (project "Servo_Controller"
+      (project "Servo_Driver"
         (path "/1be69397-b78a-46f9-b1e5-0d6fb9c99565"
           (reference "#PWR02") (unit 1)
         )
