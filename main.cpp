@@ -18,9 +18,9 @@ void read_switches(void);
 void set_pwm(void);
 void set_led(void);
 
-bool EN1_OUT = false;
-bool EN2_OUT = false;
-bool CENTER_OUT = true;
+int EN1_OUT = 0;
+int EN2_OUT = 0;
+int CENTER_OUT = 1;
 
 int VOLUME_OUT = 1500;
 
@@ -43,34 +43,48 @@ void config(void) {
 }
 
 void read_switches(void) {
-    bool EN1_status = EN1.read();
-    bool EN2_status = EN2.read();
-    bool CENTER_status = CENTER.read();
-    static bool EN1_status_old = EN1_status;
-    static bool EN2_status_old = EN2_status;
-    static bool CENTER_status_old = CENTER_status;
+    int EN1_status = EN1.read();
+    int EN2_status = EN2.read();
+    int CENTER_status = CENTER.read();
+    static int EN1_status_old;
+    static int EN2_status_old;
+    static int CENTER_status_old;
     double VOLUME_voltage = VOLUME.read();
 
-    if(EN1_status_old == 0 && EN1_status == 1)
+    if(EN1_status_old == 1 && EN1_status == 0)
         EN1_OUT = !EN1_OUT;
     
-    if(EN2_status_old == 0 && EN2_status == 1)
+    if(EN2_status_old == 1 && EN2_status == 0)
         EN2_OUT = !EN2_OUT;
 
-    if(CENTER_status_old == 0 && CENTER_status == 1) {
+    if(CENTER_status_old == 1 && CENTER_status == 0) {
         CENTER_OUT = !CENTER_OUT;
-        VOLUME_OUT = 1500;
     }
-    else {
-        VOLUME_OUT = 500 + (int)(VOLUME_voltage * 2000.0);
-    }
+    VOLUME_OUT = 500 + (int)(VOLUME_voltage * 2000.0);
+
+    EN1_status_old = EN1_status;
+    EN2_status_old = EN2_status;
+    CENTER_status_old = CENTER_status;
 }
 
 void set_pwm(void) {
-    if(EN1_OUT)
-        PWM1.pulsewidth_us(VOLUME_OUT);
-    if(EN2_OUT)
-        PWM2.pulsewidth_us(VOLUME_OUT);
+    if(EN1_OUT) {
+        if(CENTER_OUT) {
+            PWM1.pulsewidth_us(1500);
+        }
+        else {
+            PWM1.pulsewidth_us(VOLUME_OUT);
+        }
+    }
+
+    if(EN2_OUT) {
+        if(CENTER_OUT) {
+            PWM2.pulsewidth_us(1500);
+        }
+        else {
+            PWM2.pulsewidth_us(VOLUME_OUT);
+        }
+    }
 }
 
 void set_led(void) {
